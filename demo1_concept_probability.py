@@ -30,7 +30,7 @@ if __name__ == '__main__':
     dp_hist1, dp_bins1 = dp_histogram(probabilities[0],
                                       bins_range=(0, 1), epsilon=1.0, random_state=1234)
 
-    # Range of probabilities, as determined by 10 equally-spaced bins.
+    # Ranges of probabilities, as determined by 10 equally-spaced bins.
     print(dp_bins1)
 
     # Sample percentages in different ranges.
