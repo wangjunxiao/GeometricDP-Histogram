@@ -33,7 +33,7 @@ if __name__ == '__main__':
     # Range of probabilities, as determined by 10 equally-spaced bins.
     print(dp_bins1)
 
-    # Sample percentage in different ranges.
+    # Sample percentages in different ranges.
     print(dp_hist1)
 
     # Using matplotlib.pyplot, we can plot a barchart of the probability distribution.
